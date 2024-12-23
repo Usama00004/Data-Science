@@ -36,11 +36,16 @@ print(f"Median Age is {dataset['Age'].median()} calculculated using Pandas")
 #Calculating mean age from a data set using Numpy 
 print(f"Median Age is {np.median(dataset['Age'])} calculculated using Numpy")
 
-mode = dataset["Age"].median()
+median = dataset["Age"].median()
 # sb.histplot(x ="Age",data=dataset,bins=[i for i  in range (0,81,10)])
 # plt.plot([mean for i in range(0,300)],[i for i in range (0,300)], c = "red")
-# plt.plot([mode for i in range(0,300)],[i for i in range (0,300)], c = "blue")
+# plt.plot([median for i in range(0,300)],[i for i in range (0,300)], c = "blue")
 # plt.show()
+
+#################### MODE ####################
+print("======Mode======")
+print(dataset["Age"].mode()[0])
+print(dataset["Age"].value_counts())
 
 
 
