@@ -28,3 +28,4 @@ plt.scatter(section_b,number,color= "red",label="Section B")
 plt.plot([70,70,70,70,70,70],number,c="blue",label="Mean")
 plt.legend()
 plt.show()
+
