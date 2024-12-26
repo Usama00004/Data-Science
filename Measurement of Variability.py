@@ -29,3 +29,4 @@ plt.plot([70,70,70,70,70,70],number,c="blue",label="Mean")
 plt.legend()
 plt.show()
 
+
