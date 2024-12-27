@@ -39,3 +39,17 @@ print(mean_absoulte_devision_a)
 mean_absoulte_devision_b =  np.sum(np.abs(section_b - mean))/len(section_b)
 print(mean_absoulte_devision_b)
 
+
+############# Standard Deviation and Variance ################
+std_section_a = np.std(section_a)
+std_section_b = np.std(section_b)
+
+print(f"standard deviation section a = {std_section_a}")
+print(f"standard deviation section b = {std_section_b}")
+
+var_section_a = np.var(section_a)
+var_section_b = np.var(section_b)
+
+print(f"variance section a = {var_section_a}")
+print(f"variance section b = {var_section_b}")
+
